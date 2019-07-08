@@ -22,7 +22,6 @@ header h1 {
 	font-weight: 700;
 	font-size: 40px;
 	text-align: center;
-	padding-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -77,6 +76,24 @@ header h1 {
 
 .three {
 	background-image: url(../img/fon-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.three {
+	background-image: url(../img/fon-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.four {
+	background-image: url(../img/fon-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.five {
+	background-image: url(../img/fon-5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
