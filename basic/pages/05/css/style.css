@@ -880,7 +880,7 @@ body {
     top: 0;
     right: 25px;
 	}
-	.header__content h1 {
+	.element__title-description {
 		padding-top: 70px;
 		font-size: 48px;
 	}
