@@ -902,3 +902,45 @@ body {
 		flex-wrap: wrap;
 	}
 }
+@media (max-width: 320px) {
+	.wrap {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.products-title {
+		width: 180%;
+	}
+	.info__item {
+		width: 185%;
+	}
+	.navigation__products {
+		width: 185%;
+	}
+	.continer__present {
+		width: 175%;
+	}
+	.info__text {
+		width: 190%;
+	}
+	.grid-element {
+		margin: 0px 175px auto;
+	}
+	.conteiner__team {
+		width: 185%;
+	}
+	.conteiner__email {
+		width: 190%;
+	}
+	.massege-text {
+		width: 190%;
+	}
+	.conteiner__massege {
+		width: 190%;
+	}
+	.text br {
+		display: none;
+	}
+	.footer {
+
+	}
+}
