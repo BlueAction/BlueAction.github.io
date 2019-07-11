@@ -709,7 +709,6 @@ body {
 
 @media (max-width: 1000px) {
 	.header__content {
-		width: max-content;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -826,7 +825,6 @@ body {
 	}
 	.massege-box {
 		flex-direction: column;
-		margin: 0 auto;
     align-items: center;
 	}
 	.massege-content-textarea {
@@ -867,5 +865,40 @@ body {
 	}
 	.massege-content-button {
 		width: 335px;
+	}
+	.conteiner__massege-left {
+		width: -webkit-fill-available;
+	}
+	.nav-items {
+		padding: 0;
+	}
+	.info__item {
+		width: 480px;
+	}
+	.header__content {
+		position: relative;
+    top: 0;
+    right: 25px;
+	}
+	.header__content h1 {
+		padding-top: 70px;
+		font-size: 48px;
+	}
+	.header__content p {
+		padding: 0;
+	}
+	p, h1, h2 {
+		padding: 0;
+	}
+	.grid-element {
+		height: 250px;
+		width: 250px;
+    margin: 0 auto;
+	}
+	.nav-items {
+		flex-wrap: wrap;
+	}
+	.text {
+		flex-wrap: wrap;
 	}
 }
