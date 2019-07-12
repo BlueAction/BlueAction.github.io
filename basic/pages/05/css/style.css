@@ -691,13 +691,8 @@ body {
 		background-color: #F7F0DD;
 		cursor: pointer;
 		transition: .9s;
-
 		margin: 20px;
 		margin-bottom: 20px;
-
-		&:nth-child(3n) {
-			margin-right: 0;
-		}
 	}
 
 @media (max-width: 1000px) {
@@ -759,7 +754,7 @@ body {
 		padding-top: 70px;
 	}
 	.contact-info {
-		margin-top: 20px;
+		margin-top: 5px;
 		width: 380px;
 		flex-direction: column;
 	}
@@ -781,10 +776,10 @@ body {
 	}
 	.massege-content-button {
 		width: 570px;
-		margin: 25px 0 25px 0 auto;
+		margin: 25px auto;
 	}
 	.conteiner__massege-righ {
-		margin-top: 25px;
+		margin-top: 20px;
 	}
 	.team-content-item {
 		flex-direction: column;
@@ -901,9 +896,12 @@ body {
 		padding-top: 20px;
 	}
 }
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
 	.continer__present {
 		width: 169%;
+	}
+	.header__nav {
+		padding: 0;
 	}
 	.header__content p {
 		font-size: 23px;
