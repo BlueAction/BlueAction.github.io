@@ -968,6 +968,7 @@ body {
 	}
 	.conteiner__team {
 		width: 175%;
+		padding-bottom: 60px;
 	}
 	.team-social {
 		flex-wrap: wrap;
@@ -975,5 +976,41 @@ body {
 	}
 	.team-content-item {
 		height: 900px;
+	}
+	.conteiner__email {
+		width: 175%;
+	}
+	.conteiner__email h2 {
+		padding: 60px 0 30px;
+	}
+	.massege-text {
+		width: 175%;
+	}
+	.conteiner__massege-left {
+		width: 175%;
+	}
+	.massege-content {
+		font-size: 23px;
+	}
+	.massege-content-textarea {
+		font-size: 23px;
+	}
+	.conteiner__massege-right {
+		width: 175%;
+	}
+	.massege-content-button {
+		font-size: 23px;
+	}
+	.contact-info h2 {
+		font-size: 22px;
+	}
+	.contact-info span {
+		font-size: 19px;
+	}
+	.footer {
+		width: 150%;
+	}
+	.footer span {
+		font-size: 18px;
 	}
 }
