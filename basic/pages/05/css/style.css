@@ -880,7 +880,7 @@ body {
     top: 0;
     right: 25px;
 	}
-	.element__title-description {
+	.header__content h1 {
 		padding-top: 70px;
 		font-size: 48px;
 	}
@@ -903,10 +903,6 @@ body {
 	}
 }
 @media (max-width: 320px) {
-	.wrap {
-		max-width: 320px;
-		margin: 0 auto;
-	}
 	.products-title {
 		width: 180%;
 	}
@@ -941,6 +937,6 @@ body {
 		display: none;
 	}
 	.footer {
-
+		width: 140%;
 	}
 }
