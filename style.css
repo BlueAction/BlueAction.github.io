@@ -1,8 +1,27 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .container {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.container__image {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text {
+	padding-top: 70px;
+	text-align: center;
+	font-size: 70px;
+	font-weight: 700;
+	color: #363636;
 }
