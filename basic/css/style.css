@@ -1,8 +1,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #202328;
-	-webkit-user-select: none;
-	-moz-user-select: none;
+	/*-webkit-user-select: none;
+	-moz-user-select: none;*/
 }
 
 button:focus {
