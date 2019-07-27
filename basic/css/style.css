@@ -24,12 +24,36 @@ ul {
 	align-items: end;
 }
 
-.grid-contact-social__google {
-	
+.grid-contact-social__google i {
+	color: #ea4335;
 }
 
-.grid-contact-social__telegram {
+.grid-contact-social__telegram i {
+	color: #0088cc;
+}
 
+.bg-color-google {
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.bg-color-telegram {
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.bg-color-google {
+	 
+}
+
+.bg-color-google:hover {
+	background-color: #ea4335;
+	color: #fff;
+}
+
+.bg-color-telegram:hover {
+	background-color: #0088cc;
+	color: #fff;
 }
 
 .wrap {
