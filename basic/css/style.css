@@ -13,6 +13,17 @@ ul {
 	padding: 0 40px;
 }
 
+.grid-title__left {
+	text-align: left;
+	display: grid;
+}
+
+.grid-title__right {
+	text-align: right;
+	display: grid;
+	align-items: end;
+}
+
 .wrap {
 	max-width: 1190px;
 	margin: 0 auto;
@@ -46,6 +57,7 @@ header h1 {
 	grid-area: description;
 	display: grid;
 	align-items: center;
+	height: 0;
 }
 
 .grid-description li {
@@ -125,12 +137,12 @@ header h1 {
 	grid-area: contact;
 	display: grid;
 	align-items: center;
+	height: 0;
 }
 
 .grid-contact li {
 	list-style-type: none;
-	text-align: left;
-	line-height: 1.5;
+	line-height: 28px;
 	letter-spacing: 2.4px;
 	text-align: right;
 }
