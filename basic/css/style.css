@@ -3,6 +3,7 @@ body {
 	color: #202328;
 	/*-webkit-user-select: none;
 	-moz-user-select: none;*/
+	user-select: none;
 }
 
 button:focus {
