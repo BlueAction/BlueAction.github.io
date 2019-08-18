@@ -143,6 +143,12 @@ header h1 {
 	background-size: cover;
 }
 
+.six {
+	background-image: url(../img/fon-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .grid-work:hover {
 	transition: .5s ease-in-out;
 	box-shadow: inset 0px -70px 10px -10px rgba(0,0,0,0.85);
