@@ -1,16 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="xyz">
 <head>
 	<meta charset="UTF-8">
-	<title>Blue Action</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel2/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/owlcarousel2/assets/owl.theme.default.min.css">
 </head>
 <body>
-	<div class="container">
-		<img class="container__image" src="img/vincent.gif" alt="Vincent Vega">
-		<span class="container__text">Page Not Found 404</span>
-		<a href="basic/index.html" class="container__link--portfolio">Вернуться к портфолио</a>
+	<!-- Vendor scripts -->
+	<script src="libs/jquery/jquery-3.4.1.min.js"></script>
+	<script src="libs/owlcarousel2/owl.carousel.min.js"></script>
+	<script src="https://kit.fontawesome.com/bbcc7baedb.js"></script>
+  <script src="js/clipboard.min.js"></script>
+  <script>
+  	(function(){
+  		new ClipboardJS('.bg-color-google');
+  		new ClipboardJS('.bg-color-telegram');
+  	})();
+  </script>
+	<!-- User scripts -->
+	<script src="js/main.js"></script>
+	<div class="wrap">
+		<header>
+			<h1 class="line">Портфолио</h1>
+		</header>
+		<div class="owl-carousel">
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>01</p>
+				</div>
+				<div class="grid-duo">
+					<p>01</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: Fashion</li>
+						<li>Количество блоков: 10</li>
+						<li>Адаптивность: Есть</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition">
+					<a class="grid-text" href="pages/01/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>02</p>
+				</div>
+				<div class="grid-duo">
+					<p>02</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: Bino</li>
+						<li>Количество блоков: 15</li>
+						<li>Адаптивность: Есть</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition two">
+					<a class="grid-text" href="pages/02/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>03</p>
+				</div>
+				<div class="grid-duo">
+					<p>03</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: ActiveBox</li>
+						<li>Количество блоков: 9</li>
+						<li>Адаптивность: Есть</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition three">
+					<a class="grid-text" href="pages/03/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>04</p>
+				</div>
+				<div class="grid-duo">
+					<p>04</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: Limpon</li>
+						<li>Количество блоков: 16</li>
+						<li>Адаптивность: Есть</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition four">
+					<a class="grid-text" href="pages/04/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>05</p>
+				</div>
+				<div class="grid-duo">
+					<p>05</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: Agency Landing Page</li>
+						<li>Количество блоков: 8</li>
+						<li>Адаптивность: Есть</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition five">
+					<a class="grid-text" href="pages/05/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<table border="1px" width="0px" height="150px"></table>
+				<div class="grid-number">
+					<p>06</p>
+				</div>
+				<div class="grid-duo">
+					<p>06</p>
+				</div>
+				<div class="grid-description">
+					<h2 class="grid-title__left">Инфо о странице</h2>
+					<ul>
+						<li>Тип: Landing page</li>
+						<li>Название: Bukee</li>
+						<li>Количество блоков: 11</li>
+						<li>Адаптивность: В разработке</li>
+					</ul>
+				</div>
+				<div class="grid-contact">
+					<h2 class="grid-title__right">Контакты</h2>
+					<ul class="grid-contact-social">
+						<li class="grid-contact-social__google"><i class="fab fa-google"></i> Google Почта: <span class="bg-color-google" tooltip="Скопировать" flow="right" data-clipboard-text="wu70ja21vn@gmail.com">wu70ja21vn@gmail.com</span></li>
+						<li class="grid-contact-social__telegram"><i class="fab fa-telegram-plane"></i> Telegram: <span class="bg-color-telegram" tooltip="Скопировать" flow="right" data-clipboard-text="@VadimStrelov">@VadimStrelov</span></li>
+					</ul>
+				</div>
+				<div class="grid-work transition six">
+					<a class="grid-text" href="pages/06/index.html" target="_blank">Просмотреть страницу в новой вкладке</a>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
