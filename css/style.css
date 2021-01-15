@@ -104,7 +104,7 @@ header h1 {
 	display: grid;
 	grid-area: work;
 	grid-template-rows: 300px;
-	background-image: url(../img/fon.jpg);
+	background-image: url(../img/fon.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: 1px solid #202328;
@@ -114,37 +114,31 @@ header h1 {
 }
 
 .two {
-	background-image: url(../img/fon-2.jpg);
+	background-image: url(../img/fon-2.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .three {
-	background-image: url(../img/fon-3.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.three {
-	background-image: url(../img/fon-3.jpg);
+	background-image: url(../img/fon-3.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .four {
-	background-image: url(../img/fon-4.jpg);
+	background-image: url(../img/fon-4.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .five {
-	background-image: url(../img/fon-5.jpg);
+	background-image: url(../img/fon-5.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .six {
-	background-image: url(../img/fon-6.jpg);
+	background-image: url(../img/fon-6.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
