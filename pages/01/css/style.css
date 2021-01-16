@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  vertical-align: baseline; }
+  font-display: auto; }
 
 ol, ul {
   list-style: none; }
@@ -205,6 +205,9 @@ p {
       line-height: 26px;
       color: #535353;
       margin: 25px 0; }
+      .owl-dots {
+        display: none;
+      }
     .slider .slider__info .slider__title {
       font-size: 116px;
       line-height: 107px;
