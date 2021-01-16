@@ -507,7 +507,7 @@ p {
       top: auto; } }
 
 .banner {
-  background: url("../img/banner1.jpg") left center no-repeat #00b7d9;
+  background: url("../img/banner1.webp") left center no-repeat #00b7d9;
   background-size: cover;
   margin: 25px 0;
   padding: 45px 0;
@@ -555,7 +555,7 @@ p {
       background-color: white; }
 
 .banner--left {
-  background: url("../img/banner2.jpg") left center no-repeat #d7dbd5;
+  background: url("../img/banner2.webp") left center no-repeat #d7dbd5;
   background-size: cover;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
