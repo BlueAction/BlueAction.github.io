@@ -246,7 +246,7 @@ p {
           -webkit-transform: translate(-50%, -50%);
                   transform: translate(-50%, -50%); }
   .slider .owl-nav button.owl-prev, .slider .owl-nav button.owl-next {
-    background: url("../img/sprite-arrow.png") 0 0 no-repeat;
+    background: url("../img/sprite-arrow.webp") 0 0 no-repeat;
     width: 49px;
     height: 49px;
     border: none;
@@ -752,7 +752,7 @@ p {
     .featured .featured__btn:hover {
       background-color: rgba(38, 38, 38, 0); }
   .featured .owl-nav button.owl-prev, .featured .owl-nav button.owl-next {
-    background: url("../img/sprite-arrow2.png") 0 0 no-repeat;
+    background: url("../img/sprite-arrow2.webp") 0 0 no-repeat;
     width: 49px;
     height: 49px;
     border: none;
