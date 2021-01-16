@@ -8,6 +8,8 @@ html, body {
 ol, ul {
   list-style: none; }
 
+  .owl-carousel .owl-stage-outer{position:relative;overflow:hidden}.owl-carousel .owl-item{position:relative;min-height:1px;float:left;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;border:none;padding:0!important;background-color:#dedede;color:#202328;width:100px;overflow:hidden}.owl-carousel.owl-loaded{display:block}.owl-carousel.owl-loading{opacity:0;display:block}
+
 .container {
   min-width: 320px;
   max-width: 100%;
