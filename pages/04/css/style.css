@@ -1000,6 +1000,10 @@ h1 {
 	padding: 40px 0 0 0;
 }
 
+textarea {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .page-clients::before {
 	content: '';
 	display: block;
@@ -1341,6 +1345,7 @@ h1 {
 
 .contact-form-text {
 	margin-bottom: 35px;
+	cursor: pointer;
 }
 
 .contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
