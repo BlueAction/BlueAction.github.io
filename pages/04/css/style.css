@@ -879,8 +879,9 @@ h1 {
 
 .box-subscribe-child button {
 	position: relative;
-	bottom: 65px;
-	left: 315px;
+	bottom: 66px;
+	left: 320px;
+	cursor: pointer;
 }
 
 .page-subscribe {
