@@ -276,7 +276,7 @@ h3 {
 }
 
 .page-main {
-    background-image: url(../img/header-bg.png);
+    background-image: url(../img/header-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -294,7 +294,7 @@ h3 {
 }
 
 .header__logo {
-    background-image: url(../img/header_logo.png);
+    background-image: url(../img/header_logo.webp);
     background-repeat: no-repeat;
     display: block;
     height: 28px;
@@ -1148,7 +1148,7 @@ h3 {
 }
 
 .slider-conteiner__image {
-    background-image: url(../img/girl-client.jpg);
+    background-image: url(../img/girl-client.webp);
     background-position: -95px -20px;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -1159,7 +1159,7 @@ h3 {
 }
 
 .slider-conteiner__commas {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.webp);
     background-position: 0 0;
     background-repeat: no-repeat;
     height: 70px;
