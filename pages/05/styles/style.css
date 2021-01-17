@@ -1,6 +1,5 @@
 html {
     line-height: 1.15;
-    webkit-text-size-adjust: 100%;
 }
 
 details, main {
@@ -30,7 +29,6 @@ abbr[title] {
     border-bottom: none;
     text-decoration: underline dotted;
     text-decoration: underline;
-    webkit-text-decoration: underline dotted;
 }
 
 b, strong {
@@ -75,10 +73,6 @@ button, select {
     text-transform: none;
 }
 
-[type=button], [type=reset], [type=submit], button {
-    webkit-appearance: button;
-}
-
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
     border-style: none;
     padding: 0;
@@ -120,16 +114,10 @@ textarea {
 
 [type=search] {
     outline-offset: -2px;
-    webkit-appearance: textfield;
-}
-
-[type=search]::-webkit-search-decoration {
-    webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
     font: inherit;
-    webkit-appearance: button;
 }
 
 summary {
@@ -656,7 +644,6 @@ h3 {
     counter-reset: list;
     font-family: 'Open Sans', serif;
     margin: 0;
-    moz-column-count: 2;
     padding: 0;
 }
 
@@ -907,7 +894,6 @@ h3 {
     height: 224px;
     left: 50%;
     object-fit: cover;
-    o-object-fit: cover;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
